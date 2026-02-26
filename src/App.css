@@ -1,0 +1,29 @@
+#root {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #FFD700;
+  text-shadow:
+    0 0 10px rgba(255, 140, 0, 1),
+    0 0 25px rgba(255, 140, 0, 0.8),
+    0 0 50px rgba(255, 100, 0, 0.5),
+    2px 2px 0px #B8500A,
+    4px 4px 0px #7a3000;
+  margin-bottom: 2.5rem;
+  -webkit-text-stroke: 1px #FF6B00;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.8rem;
+  justify-items: center;
+}
